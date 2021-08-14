@@ -1,0 +1,8 @@
+first_num = input()
+first_num = int(first_num)
+second_num = input()
+second_num = int(second_num)
+positive_num = (first_num > 0) and (second_num > 0)
+greater_num = (first_num > 5) or (second_num > 5)
+result = (positive_num and greater_num)
+print(result)
