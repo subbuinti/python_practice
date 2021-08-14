@@ -1,0 +1,6 @@
+length_rect = input()
+length_rect = int(length_rect)
+breadth_rect = input()
+breadth_rect = int(breadth_rect)
+perimeter_rect = 2 *(length_rect + breadth_rect)
+print(perimeter_rect)
