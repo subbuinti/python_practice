@@ -1,0 +1,5 @@
+word = input()
+lower_case = word.lower()
+upper_case = word.upper()
+print(lower_case)
+print(upper_case)
